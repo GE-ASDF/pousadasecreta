@@ -1,0 +1,303 @@
+/* ESTILIZAÇÃO DO MENU */
+*{margin:0;padding:0;font-family:'Source Sans Pro', sans-serif; box-sizing: border-box;}
+
+.direito li[title*="secreta"]{
+    color:blue;
+}
+
+nav{
+    position:fixed;
+    width:100%;
+}
+
+#menu{
+      background: white;
+    box-shadow:2px 2px 2px gray;
+}
+
+#menu .direito, li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+.esquerdo p a{
+    color:blue;
+    margin-left:3px;
+}
+
+.esquerdo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.esquerdo{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    color:white;
+    flex-direction: row;
+   margin-left:5%;
+   width:100%;
+   font-size:20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+}
+
+/* INÍCIO DA ESTILIZAÇÃO DA SEÇÃO PRINCIPAL */
+
+#principal{
+    width:100%;
+    background-image:url("../assets/img-fundo.jpg");
+    background-attachment: fixed;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(46,125,50,0.5);
+    width:500px;
+    height:250px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+    line-height: 100px;
+    font-size:25px;
+    border:1px solid white;
+    font-weight: 500;
+}
+
+.para-back{
+    font-size:50px;
+    font-weight: 900;
+}
+
+/* FIM DA ESTILIZAÇÃO DA SEÇÃO PRINCIPAL */
+
+/* BREAKPOINT */
+
+/* INÍCIO DA ESTILIZAÇÃO DA SEÇÃO QUARTOS */
+
+#quartos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin:60px 0px 50px 0px;
+}
+
+.quartos h3{
+    margin-top:100px;
+    margin-bottom:30px;
+}
+.quartos p{
+    margin-bottom:10px
+}
+.quartos{
+    color:gray;
+}
+#container1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:auto;
+    margin-top:40px;
+    background-color: white;
+    margin-bottom:50px;
+}
+.cards{
+    background-color: white;
+    width:250px;
+    margin-right:25px;
+    border-bottom:3px solid black;
+}
+.cards:hover{
+    border-bottom:10px solid blue;
+    transition:0.5s;
+}
+.cards img{
+    width:250px;
+    margin-right:25px;
+}
+.cards img:hover{
+    transform:scale(1.1);
+    transition:0.5s;
+}
+#container1 .cards p{
+    padding:10px;
+}
+
+#rota2{
+    margin-bottom:100px;
+}
+iframe{
+    height:540px;
+    margin-top:100px;
+}
+
+/* FIM DA ESTILIZAÇÃO DA SEÇÃO QUARTOS */
+
+/* INÍCIO DA ESTILIZAÇÃO DA SEÇÃO SOBRE */
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:gray;
+    align-items: center;
+    margin-bottom:80px;
+}
+.sobre h2{
+    margin-bottom:50px;
+}
+
+#sobre2{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    background-color: white;
+}
+
+.cards2{
+    overflow:hidden;
+    display: inline-block;
+    margin:auto;
+    background-color: white;
+    width:590px;
+    margin-right:60px;
+}
+
+.cards2 img{
+    float:right;
+    width:200px;
+    height: 200px;
+    margin-bottom:25px;
+    clear: both;
+}
+
+.cards2 p{
+    margin-top:20px;
+    padding:0px;
+}
+.cards2 h4{
+    margin-top:90px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(46,125,50);
+    height: 200px;
+    color:white;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+.rodape{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+}
+
+.rodape .titulo{
+    width:15%;
+}
+
+.rodape h3{ 
+    color:white;
+    font-size: 25px;
+
+}
+figure{
+    display: flex;
+    align-items: center;
+}
+#rodape-img img{
+    width:50px;
+    height: 50px;
+    margin-right:10px;
+    margin-left:10px
+}
+.direitos{
+    text-align: center;
+    height:10px;
+    width:80%;
+    border-top:1px solid black;
+}
+
+/* ESTILIZAÇÃO PÁGINA QUARTOS*/
+
+#quarto-solteiro{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    width:100%;
+    height: 1000px;
+}
+.quarto-solteiro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px;
+    margin: 0px auto 50px auto;
+    width:100%;
+    color:gray;
+    height:100%;
+    text-align: center;
+}
+.quarto-solteiro img{
+    width:30%;
+    float: left;
+    margin-right: 10px;
+}
+#titulo-quarto{
+    margin:50px 0px 100px 0px;
+    width:100%;
+    line-height: 50px;
+}
+
+#solteiro-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.solteiro-lista{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#solteiro-lista h3{
+    margin-bottom:25px;
+}
+.solteiro-lista li{
+    display: flex;
+    flex-direction: column;
+    padding-right:100px;
+}
